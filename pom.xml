@@ -16,7 +16,6 @@
     </properties>
 
     <dependencies>
-        <!-- Servlet API (fornecido pelo Tomcat) -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
@@ -27,7 +26,6 @@
 
     <build>
         <plugins>
-            <!-- Plugin do Maven para compilar código Java -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

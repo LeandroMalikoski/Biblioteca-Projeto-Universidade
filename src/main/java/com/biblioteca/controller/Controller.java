@@ -1,4 +1,4 @@
-package com.biblioteca.servlets;
+package com.biblioteca.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,8 +8,8 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/menu")
-public class MenuServlet extends HttpServlet {
+@WebServlet(urlPatterns = {"/controller", "/main"})
+public class Controller extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
